@@ -4,7 +4,8 @@
   "description": "Portfolio website",
   "scripts": {
     "start": "npx serve -s . -l 8080",
-    "build": "echo 'No build step required for static site'"
+    "build": "npm install",
+    "dev": "npx serve -s . -l 8080"
   },
   "dependencies": {
     "serve": "^14.2.0"
