@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "scripts": {
+    "start": "npx serve -s . -l 8080",
+    "build": "echo 'No build step required for static site'"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}

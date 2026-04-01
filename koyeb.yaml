@@ -1,0 +1,6 @@
+name: portfolio
+type: static
+build:
+  command: npm install
+run:
+  command: npx serve -s . -l 8080
