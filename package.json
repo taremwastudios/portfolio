@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "Portfolio website",
   "scripts": {
-    "start": "npx serve -s . -l 8080",
-    "build": "npm install",
-    "dev": "npx serve -s . -l 8080"
-  },
-  "dependencies": {
-    "serve": "^14.2.0"
+    "start": "python3 -m http.server $PORT",
+    "build": "echo 'No build required'",
+    "dev": "python3 -m http.server 8080"
   }
 }

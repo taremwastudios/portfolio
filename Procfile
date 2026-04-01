@@ -1,1 +1,1 @@
-web: npx serve -s . -l 8080
+web: python3 -m http.server $PORT
